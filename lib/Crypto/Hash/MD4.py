@@ -42,7 +42,7 @@ __all__ = ['new', 'digest_size', 'MD4Hash' ]
 from Crypto.Util.py3compat import *
 from Crypto.Hash.hashalgo import HashAlgo
 
-import Crypto.Hash._MD4 as _MD4
+import _MD4
 hashFactory = _MD4
 
 class MD4Hash(HashAlgo):

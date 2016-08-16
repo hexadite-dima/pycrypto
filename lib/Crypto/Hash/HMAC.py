@@ -63,7 +63,7 @@ __revision__ = "$Id$"
 
 __all__ = ['new', 'digest_size', 'HMAC' ]
 
-from Crypto.Util.strxor import strxor_c
+from strxor import strxor_c
 from Crypto.Util.py3compat import *
 
 #: The size of the authentication tag produced by the MAC.

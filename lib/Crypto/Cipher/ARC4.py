@@ -63,7 +63,7 @@ As an example, encryption can be done as follows:
 
 __revision__ = "$Id$"
 
-from Crypto.Cipher import _ARC4
+import _ARC4
 
 class ARC4Cipher:
     """ARC4 cipher object"""

@@ -51,7 +51,7 @@ As an example, encryption can be done as follows:
 __revision__ = "$Id$"
 
 from Crypto.Cipher import blockalgo
-from Crypto.Cipher import _DES
+import _DES
 
 class DESCipher(blockalgo.BlockAlgo):
     """DES cipher object"""

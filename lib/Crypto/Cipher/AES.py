@@ -47,7 +47,7 @@ As an example, encryption can be done as follows:
 __revision__ = "$Id$"
 
 from Crypto.Cipher import blockalgo
-from Crypto.Cipher import _AES
+import _AES
 
 class AESCipher (blockalgo.BlockAlgo):
     """AES cipher object"""
