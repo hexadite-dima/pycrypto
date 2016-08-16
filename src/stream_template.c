@@ -341,7 +341,7 @@ void
 #else
 	ALGtype.ob_type = &PyType_Type;
 	/* Create the module and add the functions */
-	m = Py_InitModule("Crypto.Cipher." _MODULE_STRING, modulemethods);
+	m = Py_InitModule(_MODULE_STRING, modulemethods);
 #endif
  
  	/* Add some symbolic constants to the module */
