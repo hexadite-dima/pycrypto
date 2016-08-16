@@ -349,7 +349,7 @@ _MODULE_NAME (void)
         return NULL;
 #else
 	ALGtype.ob_type = &PyType_Type;
-	m = Py_InitModule("Crypto.Hash." _MODULE_STRING, ALG_functions);
+	m = Py_InitModule(_MODULE_STRING, ALG_functions);
 #endif
 
 	/* Add some symbolic constants to the module */
